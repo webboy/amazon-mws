@@ -1,8 +1,6 @@
 <?php 
 namespace MCS;
 
-use Exception;
-
 class MWSProduct{
 
     public $sku;
@@ -113,6 +111,8 @@ class MWSProduct{
     public function __set($property, $value) {
         if (property_exists($this, $property)) {
             return $this->$property;
+        } else {
+            return false;
         }
     }    
 }
