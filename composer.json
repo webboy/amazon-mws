@@ -1,18 +1,18 @@
 {
-    "name": "mcs/amazon-mws",
+    "name": "webboy/amazon-mws",
     "description": "Library to interface with Amazon MWS",
     "license": "MIT",
     "keywords": ["amazon", "mws"],
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Michiel Meertens",
-            "email": "meertensmichiel28@gmail.com"
+            "name": "Nemanja Milenkovic",
+            "email": "nemanja@adbadger.com"
         }
     ],
     "require": {
         "php": ">= 5.4",
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": "~7.0",
         "spatie/array-to-xml": "^2.1",
         "league/csv": "^8.1"
     },
