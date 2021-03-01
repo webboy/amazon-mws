@@ -4,6 +4,7 @@
     "license": "MIT",
     "keywords": ["amazon", "mws"],
     "minimum-stability": "dev",
+    "version": "0.2",
     "authors": [
         {
             "name": "Nemanja Milenkovic",
