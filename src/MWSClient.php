@@ -1252,7 +1252,7 @@ class MWSClient{
             $requestOptions['query'] = $query;
             
             if($this->client === NULL) {
-                $this->client = new Client();
+                $this->client = new Client(['verify'=> false]);
             }
 
             $response = $this->client->request(
